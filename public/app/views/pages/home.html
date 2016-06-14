@@ -27,13 +27,10 @@
 
 			<div class="panel panel-success">
 				<div class="panel-heading">Your story...</div>
-				<div class="panel-body" style="padding-left: 10px;border-left: 3px solid #a21b24;margin-bottom: 30px;" ng-repeat="each in story.stories | reverse | filter: txtSearch | paginate:rowsPerPage">
+				<div class="panel-body" style="padding-left: 10px;border-left: 3px solid #a21b24;margin-bottom: 30px;" ng-repeat="each in story.stories | reverse | filter: txtSearch">
 					{{ each.content }}
 				</div>
 			</div>
-
-			div.control
-
 		</div>
 	</div>
 
